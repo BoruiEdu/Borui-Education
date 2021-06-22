@@ -1,0 +1,16 @@
+@media screen and (max-width: 540px) {
+    .main-header {
+        font-size: large;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .burger {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+.burger .burger-bar:hover {
+    transform: rotate(225deg);
+}
