@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#jsPractice{
+    background-color: aquamarine;
+    align-self: center;
+    margin-top: 3%;
+    border: solid;
+    width: 80%;
+    text-align: center;
+}
