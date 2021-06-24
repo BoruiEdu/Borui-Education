@@ -8,9 +8,6 @@ body {
     margin-top: 5%;
     align-self: center;
     width: 80%;
-    border: solid;
-    border-color: red;
-    border: solid;
     display: flex;
     align-items: center;
     color: white;
@@ -22,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: auto;
-    
+    transition: 2s;
 }
 
 img {
@@ -46,6 +43,7 @@ img {
 
 .child:hover {
     background-color: rgb(253, 4, 4, 0.7);
+    transform: scale(1.05);
 }
 
 @media only screen and (max-width: 600px) {

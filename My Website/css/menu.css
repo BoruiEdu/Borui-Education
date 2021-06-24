@@ -8,9 +8,20 @@
     .burger {
         display: flex;
         margin: 0 auto;
+        
     }
 }
 
-.burger .burger-bar:hover {
-    transform: rotate(225deg);
+.burger:hover .burger-bar1{
+    -webkit-transform: translateY(7px) rotate(225deg);
+    transition: 2s;
+}
+.burger:hover .burger-bar2{
+    background: transparent;
+    transition: 1s;
+}
+
+.burger:hover .burger-bar3{
+    -webkit-transform: translateY(-7px) rotate(-225deg);
+    transition: 2s;
 }
